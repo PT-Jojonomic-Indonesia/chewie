@@ -13,13 +13,15 @@ dependencies:
     sdk: flutter
   provider: ^6.0.3
   video_player: ^2.4.7
-  wakelock:
-    git: https://github.com/PT-Jojonomic-Indonesia/wakelock
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
+
+dependency_overrides:
+  wakelock:
+    git: https://github.com/PT-Jojonomic-Indonesia/wakelock/wakelock
 
 flutter:
   uses-material-design: true
